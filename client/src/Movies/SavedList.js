@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 // import MovieList from "./MovieList";\
 
 const SavedList = props => (
@@ -11,9 +11,9 @@ const SavedList = props => (
       </NavLink>
     ))}
 
-    <Link to="/">
+    <NavLink to="/">
       <div className="home-button">Home</div>
-    </Link>
+    </NavLink>
   </div>
 );
 

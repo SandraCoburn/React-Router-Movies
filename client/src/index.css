@@ -15,7 +15,11 @@ body {
   position: relative;
   margin: 1rem auto;
 }
-
+.movie-card a {
+  color: #1c5d76;
+  text-decoration: none;
+  padding: 12px;
+}
 .movie-director {
   padding: 4px 0;
   font-size: 0.8rem;
@@ -38,6 +42,16 @@ body {
 
 .saved-list h3 {
   margin-right: 10px;
+}
+.saved-list a {
+  color: #a5a5a5;
+  text-decoration: none;
+  padding: 12px;
+}
+
+.saved-list a.active {
+  color: #1c5d76;
+  font-weight: bold;
 }
 
 .saved-movie {
